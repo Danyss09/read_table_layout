@@ -10,7 +10,7 @@ const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root', // replace with your MySQL username
     password: 'dani0919', // replace with your MySQL password
-    database: 'TableCreateDb'
+    database: 'TableReadDb'
 });
 
 connection.connect((err) => {
